@@ -25,21 +25,21 @@ class _Home_PageState extends State<Home_Page> {
                     nombre: "Contacto",
                     icono: Icons.battery_1_bar,
                     bordeCircular: 10,
-                    colorBackground: Colors.black,
-                    colorIcon: Colors.red,
-                    colorNombre: Colors.blue,
+                    colorBackground: Color.fromARGB(255, 39, 155, 176),
+                    colorIcon: Colors.redAccent,
+                    colorNombre: Colors.redAccent,
                     proporcionNombre: 20),
                 Container(
                   padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Colors.cyanAccent),
+                      color: Colors.black),
                   child: Row(
                     children: [
-                      Icon(Icons.home, color: Colors.orange),
+                      Icon(Icons.account_circle, color: Colors.red),
                       Text(
-                        "Home",
-                        style: TextStyle(fontSize: 16, color: Colors.orange),
+                        "Contacto",
+                        style: TextStyle(fontSize: 16, color: Colors.red),
                       ),
                     ],
                   ),
