@@ -16,12 +16,15 @@ class _HomePagePracticeState extends State<HomePagePractice> {
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 5),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Hola"),
                 Icon(Icons.home),
+                Text("Hola"),
               ],
             )
           ],
